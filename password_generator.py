@@ -10,7 +10,7 @@ def enter_word():
 def pass_gen():
     l= int(input("enter the length of password:- "))
     n=""
-    for k in range(0,l+1):
+    for k in range(0,l):
         rand_choice=random.choice(y)
         n=n+rand_choice
     print("The generated password is :- ",n)
@@ -52,7 +52,7 @@ while(True):
     else:
         print("I CAN NOT COMPREHEND YOUR INVALID INPUTS TRY AGAIN ;< ")
 
-
+    
 
 
 
